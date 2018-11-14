@@ -57,4 +57,12 @@ public class FirstController {
         goodsDao.save(goods);
         return "success";
     }
+
+    @RequestMapping(path = "/test")
+    @ResponseBody
+    public String testSuffix(){
+        return "success";
+    }
+
+
 }
